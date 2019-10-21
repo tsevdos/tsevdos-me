@@ -1,13 +1,15 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Amaranth, sans-serif;
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -51,7 +53,8 @@ nav ul a.active {
   font-weight: bold !important;
 }
 
-.section .btn-large, .section .btn-small {
+.section .btn-large,
+.section .btn-small {
   opacity: 1;
   transition: none;
   text-decoration: none;
@@ -60,7 +63,7 @@ nav ul a.active {
 
 .card .card-title {
   margin-top: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card .card-content .card-title {
@@ -92,6 +95,15 @@ nav ul a.active {
 
 .meta strong {
   font-weight: bold !important;
+}
+
+.card ul,
+.card li {
+  list-style-type: disc !important;
+}
+
+.card ul {
+  padding: 0 0 0 1.4em;
 }
 
 @media (max-width: 600px) {
